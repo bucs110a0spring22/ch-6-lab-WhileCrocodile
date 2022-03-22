@@ -8,18 +8,18 @@
 _Replace anything surrounded by the `< >` symbols._
 
 ## SUMMARY:
- < Provide a short description of your program's functionality. No more than a couple sentences. >
+Generates a table of starting numbers in one column and the number of iterations it takes for that number to complete the 3n+1 sequenze in the next column. Graphs the results in a updating window that keeps track of the highest iteration count.
 
 ## GRACE DAYS
-Grace days used for this assignment: < # >
+Grace days used for this assignment: 0
 
-Grace days remaining: < # >/5
+Grace days remaining: 5/5
 
 ## KNOWN BUGS AND INCOMPLETE PARTS:
- < What parts of the project you were not able to complete >
+N/A
 
 ## REFERENCES:
- < List any outside resources used >
+N/A
 
 ## MISCELLANEOUS COMMENTS:
- < Anything you would like the grader to know >
+N/A
