@@ -31,13 +31,13 @@ def seqgraph(upper_bound):
     result = seq3np1(start)
     if result > max_so_far:
       max_so_far = result
+      writerpen.clear()
+      writerpen.goto(0, max_so_far)
+      label = "Maximum so far: (" + str(start) + ", " + str(max_so_far) + ")"
+      writerpen.write(label)
     wn.setworldcoordinates(llx=0, lly=0, urx=start+10, ury=max_so_far+10)
     xpen.goto(start+10, 0)
     ypen.goto(0, max_so_far)
-    writerpen.clear()
-    writerpen.goto(0, max_so_far)
-    label = "Maximum so far: " + str(start) + " " + str(max_so_far)
-    writerpen.write(label)
     graphpen.goto(start, result)
   wn.exitonclick()
 
