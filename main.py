@@ -24,6 +24,8 @@ def seqgraph(upper_bound):
   
   wn.setworldcoordinates(llx=0, lly=0, urx=10, ury=10)
   max_so_far = 0
+  ypen.left(90)
+  writerpen.left(90)
   
   for start in range(1, upper_bound+1):
     result = seq3np1(start)
